@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+input {
+    background-color: #ffe600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+p {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, salmon, orange);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+.btn-primary {
+    border-radius: 5px;
+    background:#ffe600;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: none;
+    cursor: pointer;
+}
+  
+.btn-primary:hover {
+    color: red;
+    background-color:aqua;
+    box-shadow: inset 0px 0px 44px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 0px 44px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 44px 3px rgba(0, 0, 0, 0.2);
+} 
+
+section {
+    padding: 50px 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+header {
+    width: 100vw;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: #ffe600;
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a img {
+    height: 50px;
+    width: 85px;
+}
+
+.nav a i {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.nav-items {
+    display: flex;
+    height: 0px;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.3s ease;
+    overflow: hidden;
+}
+
+.nav-items a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* About */
+
+#about .work-options-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe600;
+}
+
+#about div select {
+    /* width: 50%; */
+    height: 50px;
+    background-color: #ffe600;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#about .work-options {
+    display: none;
+}
+
+#about img {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+
+
+/* Work */
+#work{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+    text-align: justify;
+  }
+  
+  .skill-container {
+    display: flex;
+    gap: 25px;
+  }
+  .skill {
+    padding: 33px;
+    border-radius: 5px;
+    background:chartreuse;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+  .skill-title {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .skill-description {
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    display: block;
+    text-align: justify;
+  }
+  .skill-img {
+    display: block;
+    margin:0;
+  }
+  
+.display img{
+    margin-left: 290px;
+    height: 700px;
+}
+
+.section-description {
+    text-align:justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: black;
+}
+
+#mail{
+    text-align: center;
+}
+
+  /*Contact*/
+
+#contact div h1 {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#contact form input {
+    text-transform: capitalize;
+    margin: 5px 0;
+    padding-left: 10px;
+}
+
+#contact div input[type="text"],
+input[type="email"],
+input[type="textbox"] {
+    background-color: #edf2f6;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    input {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .nav a i {
+        color: gray;
+    }
+  
+    /* Contact */
+
+    #contact div input {
+        margin: 5px 20%;
+    }
+    
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    input {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    /* Main Content */
+
+    main {
+        padding: 35px 0px;
+        padding-bottom: 0;
+    }
+
+    main div.portfolio {
+        background: none;
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    main div.portfolio div h1 {
+        font-size: 48px;
+    }
+
+    main div div.grid-item {
+        width: 50%;
+    }
+
+    main div div.grid-item img {
+        display: inherit;
+    }
+
+    /* About */
+
+    #about .work-options-mobile {
+        display: none;
+    }
+
+    #about .work-options {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffe600;
+        padding: 20px 200px;
+    }
+
+    #about div.display img {
+        display: inline;
+        width: 49%;
+    }
+
+    /* Contact */
+
+    #contact .grid-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #contact .grid-container div.grid-item {
+        width: 50%;
+        margin: 0 5px;
+    }
+
+    #contact .grid-item div form input {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    input {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    header {
+        padding: 10px 10vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav a i {
+        display: none;
+    }
+
+    .nav-items {
+        flex-direction: row;
+        height: 50px !important;
+    }
+
+    .nav-items a {
+        padding: 0 20px;
+        font-size: 25px;
+    }
+
+    /* Main Content */
+
+    main {
+        padding: 85px 10vw;
+        padding-bottom: 0;
+    }
+
+    main div.portfolio {
+        background: none;
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    main div.portfolio div h1 {
+        font-size: 48px;
+    }
+
+    main div div.grid-item {
+        width: 50%;
+    }
+
+    main div div.grid-item img {
+        display: inherit;
+    }
+
+    /* About */
+
+    #about .work-options-mobile {
+        display: none;
+    }
+
+    #about .work-options {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffe600;
+        padding: 20px 200px;
+    }
+
+    #about div.display img {
+        display: inline;
+        width: 49%;
+    }
+
+    #about div.brand {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+   
+    /* Contact */
+
+    #contact .grid-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #contact .grid-container div.grid-item {
+        width: 40%;
+        margin: 0 5px;
+    }
+
+    #contact .grid-item div form input {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/*  Extra large devices (Full HD desktops, 1920px and up) */
+@media only screen and (min-width: 1920px) {
+    input {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    header {
+        padding: 10px 20vw;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+}

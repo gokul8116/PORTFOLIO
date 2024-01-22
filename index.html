@@ -1,0 +1,145 @@
+<!DOCTYPE html>   
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/MEE.png">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a href="#"><img src="./assets/My Logo.png" alt="logo"></a>
+            <a href="javascript:void(0)" onclick="toggleMobileMenu()"><i id="toggleIcon" class="fas fa-bars"></i></a>
+        </div>
+        <div class="nav-items" id="nav-items">
+            <a href="#about" onclick="toggleMobileMenu()">About</a>
+            <a href="#work" onclick="toggleMobileMenu()">Skills</a>
+            <a href="#resume" onclick="toggleMobileMenu()">Resume</a>
+            <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div class="grid-container portfolio">
+            <div class="grid-item">
+                <img src="./assets/Student.jpg" alt="Me" height="500">              
+            </div>
+            <div class="grid-item">
+                <h1>hello!!!</h1>
+                <h1>I am Gokul Pal</h1>
+                <p>I am an aspiring software developer with a passion for coding and problem solving. Enthusiastic about software development and eager to explore various technologies. Aiming to contribute to innovative projects and constantly expanding skills in the field. </p>
+                <button class="btn-primary">
+                    <i class="fa-solid fa-download"></i> Hire me
+                  </button>
+                  <button class="btn-primary">
+                    <i class="fa-solid fa-phone"></i> Contact me
+                  </button>
+            </div>
+        </div>
+
+
+        <section id="about">
+            <h1>About me</h1>
+            <div class="work-options-mobile">
+                <select name="filter" id="work-filter">
+                    <option value="all">All</option>
+                    <option value="all">Education</option>
+                    <option value="all">Passion</option>
+                    <option value="all">Experience</option>
+                </select>
+                <select name="sort" id="work-sort">
+                    <option value="newest first" selected>Newest First</option>
+                </select>
+            </div>
+            <div class="work-options">
+                <a href="#all">All</a>
+                <a href="#education">Education</a>
+                <a href="#passion">Passion</a>
+                <a href="#experience">Experience</a>
+            </div>
+            <div class="display">   
+                <img src="./assets/NCC Cadet.jpg" alt="Cadet">
+                <div class="section-description"> 
+                    <p>
+                     Myself Gokul Pal, I was born and brought up in Behrampur, Murshidabad. I belong to a middle class family. I completed my schooling from Kamnagar Kazipara High School with 70% in WBBSE class 10. I completed my class 12 with PCM stream from Chaltia Sreeguru Pathsala High School. I secured 77.8% in my class 12 WBCHSE examination. Currently pursuing BTech degree in Computer Science & Engineering from Dr. B.C Roy Engineering College, Durgapur. Currently I am involved in learning Web Development more efficiently. I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Apart from this, I am an NCC Cadet. As a dedicated and disciplined indivitual, my journey involvs rigorous training in drills, physical fitness and community service. My dedication to the NCC reflects a deep commitment to personal growth and contributing positively to society.</p>
+                    <p id="mail">Email: axbycz@gmail.com</p>
+                </div>
+            </div>
+            <input type="button" value="show me more">
+        </section>
+
+
+        <section id="work">
+                <h1>Skills</h1>
+                <p id="what-i-do-description" class="section-description">
+                  Well.. I'm a front-end developer and my job as a developer is not just to create code that I work with easily, but to create code that others can also work with easily. I am an aspiring software developer with a passion for technology.Below is a quick overview of my main technical skill sets and technologies I use; there are also few things apart from web development. Want to find out more about my skills? Check out my online resume and project portfolio.
+                </p>
+            
+                <div class="skill-container">
+                    <div class="skill">
+                        <img class="skill-img" src="./icons/php-icon.png" alt="PHP"/>
+                        <h3 class="skill-title">PHP</h3>
+                        <skill class="skill-description">
+                            PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. With open-source accessibility, cross-platform compatibility, and strong integration with databases, PHP allows developers to embed dynamic content seamlessly into HTML. Its extensive documentation and active community support contribute to its popularity. PHP also boasts frameworks like Laravel for efficient development and offers versatility, supporting tasks beyond web scripting.</skill>
+                    </div>
+                    <div class="skill">
+                        <img class="skill-img" src="./icons/ui-ux.jpg" alt="UI/UX Design"/>
+                        <h3 class="skill-title">Website Design</h3>
+                        <skill class="skill-description">
+                          It's the art and process of creating the visual asthetics and layout of a website. It involvs a combination of graphic design , user experience(UX) design and technical knowlwdge to craft a site that is not only visually appealing but also functional and user-friendly. Website design involves planning, creating, and organizing the visual elements and layout of a website. It's a blend of creativity and functionality to create a visually appealing and user-friendly online presence.</skill>
+                    </div>
+                    <div class="skill">
+                        <img class="skill-img" src="./icons/front-end.jpg" alt="Front-end"/>
+                        <h3 class="skill-title">Front-end WEB Dev</h3>
+                        <skill class="skill-description"> 
+                          It requires a combinations of technical skills,creativity and attention to detail to create visually appealing and functional websites.It's an ever-evolving field, with new technologies and best practises continually shaping the way websites are built  and experienced. The core languages for front-end development are: HTML, CSS & Javascript. HTML is used for structuring the content, CSS for styling and layout, and Javascript for adding interativity to the website.</skill>
+                        </div>
+                    <div class="skill">
+                      <img class="skill-img" src="./icons/aiml.jpg" alt="AIML using Python" />
+                      <h3 class="skill-title">AI-ML using Python</h3>
+                      <skill class="skill-description"> 
+                      Pyhton is the most popular programming language for Machine Learning due to its readability, extensive libraries and frameworks, strong community support, compatibility with other languages and scalability. Challenges such as performance concerns can be addresed by optimizing memory usage and algorithm complexity. Python is a very easy language to read so every Python developer can understand the code of their peer and change, copy or share it.</skill>
+                    </div>
+                  </div>
+        </section>
+            
+        <section id="resume">
+            <center>
+            <button class="btn-primary">
+                <i class="fa-solid fa-download"></i> Download CV
+              </button>
+            </center>
+        </section>
+    
+
+        <section id="contact">
+            <h1>Contact me</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="./assets/contact.jpg" alt="me">
+                </div>
+                <div class="grid-item">
+                    <p>Want to work on a project together?</h4>
+                        If you have the same passion for coding and development as I do, Please fill out the form on this section to contact with me.</p>
+    
+                    <div>
+                        <h1>Send me a message.</h1>
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <input type="textbox" name="" id="" placeholder="Message">
+                            <input type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>
+
+
+
+
